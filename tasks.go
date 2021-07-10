@@ -1,5 +1,5 @@
 package tasks
 
 type Tasks interface {
-	Do()
+	Do() Tasks
 }
